@@ -1,4 +1,11 @@
 .widget-about {
+  width: 100%;
+  // display: flex;
+  // justify-items: center;
+
+  &.sep-after{
+    content: none;
+  }
   .logo {
     max-width: 10em;
 
@@ -8,7 +15,11 @@
     }
 
     .sidebar & {
-      margin-left: auto;
+      // margin-left: auto;
     }
   }
+}
+
+#sidebar{
+  // background-color: #FFAF00;
 }

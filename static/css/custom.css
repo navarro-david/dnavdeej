@@ -1,12 +1,15 @@
+.widget-about {
+  width: 100%;
+}
+.widget-about.sep-after {
+  content: none;
+}
 .widget-about .logo {
   max-width: 10em;
 }
 .widget-about .logo a {
   display: block;
   line-height: 0;
-}
-.sidebar .widget-about .logo {
-  margin-left: auto;
 }
 
 /*# sourceMappingURL=custom.css.map */
